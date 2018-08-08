@@ -68,34 +68,29 @@
 (defcustom atomx-api-domain "api.atomx.com"
   "Atomx API domain."
   :type 'string
-  :safe #'stringp
-  :group 'atomx)
+  :safe #'stringp)
 
 (defcustom atomx-api-version "v3"
   "Atomx API version."
   :type 'string
-  :safe #'stringp
-  :group 'atomx)
+  :safe #'stringp)
 
 (defcustom atomx-api-port 443
   "Atomx API port."
   :type 'integer
-  :safe #'integerp
-  :group 'atomx)
+  :safe #'integerp)
 
 (defcustom atomx-email nil
   "Your atomx api email.
 When nil read email from authinfo."
   :type 'string
-  :safe #'stringp
-  :group 'atomx)
+  :safe #'stringp)
 
 (defcustom atomx-password nil
   "Your atomx api password.
 When nil read password from authinfo."
   :type 'string
-  :safe #'stringp
-  :group 'atomx)
+  :safe #'stringp)
 
 (defvar atomx--auth-token nil
   "Atomx API auth token.")
